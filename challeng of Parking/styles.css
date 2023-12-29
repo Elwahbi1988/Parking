@@ -1,0 +1,176 @@
+body {
+    -webkit-transform: translate3d(0, 0, 0);
+    background-color: #434343;
+    background-image: url(park2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150vh;
+    width: 100%;
+}
+.barrier {
+    overflow: hidden;
+    background-image: url(AE.png) !important;
+    background-size: cover;
+    background-repeat: no-repea;
+    border: 5px solid black;
+    width: 800px;
+    height: 472px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.barrier .btop {
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 2em / 1em;
+    height: 1.5em;
+    width: 3em;
+    background-color: #696b6f;
+    left: 7em;
+    top: 17.2em;
+    z-index: 99;
+}
+.barrier .bbody {
+    position: absolute;
+    top: 18em;
+    left: 7em;
+    height: 10em;
+    width: 3em;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    background: linear-gradient(to top, #37383b 25%, #696b6f 100%);
+    z-index: 100;
+}
+.barrier .bbody .bbround {
+    position: absolute;
+    top: 1.5em;
+    left: 0.9em;
+    width: 1em;
+    height: 1em;
+    border-radius: 1em;
+    background: #222426;
+    border: 1px solid black;
+}
+.barrier .bfooter {
+    position: absolute;
+    top: 28em;
+    left: 7.2em;
+    width: 2.6em;
+    height: 0.3em;
+    background-color: #222426;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.barrier .bshaft {
+    position: absolute;
+    top: 19em;
+    left: -15.5em;
+    width: 35em;
+    height: 2em;
+    transition: transform 2s ease-out;
+}
+.barrier .bshaft.rotate {
+    transform: rotate(-90deg);
+    transform-origin: 380px center;
+}
+.barrier .bshaft .bshaftreal {
+    position: absolute;
+    top: 0em;
+    left: 23em;
+    width: 32em;
+    height: 2em;
+    border: 1px solid black;
+    z-index: 80;
+    background: linear-gradient(to top, #ccc 25%, #fff 100%);
+}
+.barrier .bshaft .bshaftreal .sreddot {
+    position: absolute;
+    width: 4em;
+    height: 0.8em;
+    top: -0.01em;
+    background: linear-gradient(to top, #900 25%, #f00 100%);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.barrier .bshaft .bshaftreal .sreddot:first-child {
+    left: 8em;
+    width: 100px;
+}
+.barrier .bshaft .bshaftreal .sreddot:nth-child(2) {
+    left: 22em;
+    width: 100px;
+}
+.barrier .bshaft .bshaftreal .sline {
+    position: absolute;
+    top: 1em;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+}
+.barrier .bshaft .bshaftreal .sred {
+    position: absolute;
+    width: 100%;
+    height: 0.5em;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    bottom: -0.04em;
+    background: linear-gradient(to top, #900 25%, #f00 100%);
+}
+.barrier .bshaft .bshaftend {
+    width: 3em;
+    height: 2em;
+    background-color: #222426;
+    border-radius: 1em / 2em;
+    position: absolute;
+    border: 1px solid black;
+    top: 0;
+    left: 34em;
+}
+#car{
+    position: absolute;
+    left: 480px;
+    top: 500px;
+    width: 150px;
+    border-radius: 3px;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.moto{
+    position: absolute;
+    left: 690px;
+    top: 500px;
+    width: 150px;
+    border-radius: 3px;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.truck{
+    position: absolute;
+    left: 900px;
+    top: 500px;
+    width: 150px;
+    border-radius: 3px;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#park_your_c{
+    position: absolute;
+    left: 620px;
+    top: 200px;
+}
+#buttonContainer{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 705px;
+    top: 200px;
+}
+
+
